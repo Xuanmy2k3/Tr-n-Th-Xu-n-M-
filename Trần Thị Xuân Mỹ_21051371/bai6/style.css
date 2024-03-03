@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*reset lại*/
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.listitem{
+    width: 100%;
+    height: 100vh;
+    background: #eeeeee url(https://hanoispiritofplace.com/wp-content/uploads/2018/01/hinh-nen-bau-troi-dem-4.jpg) no-repeat top left;
+}
+.wrapper{
+    display: flex;
+    gap: 30px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+}
+.item{
+    text-align: center;
+}
+.number{
+    color: white;
+    font-size: 46px;
+    margin-top: 40px;
+}
+.description{
+    margin-top: 20px;
+    color: yellow;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.icon-student{
+    color: rgb(0, 255, 107);
+}
+
+.icon-work{
+    color: rgb(228, 117, 217);
+}
+
+.icon-article{
+    color: rgb(251, 0, 0);
+}
+
+.icon-prize{
+    color: rgb(56, 101, 237);
+}
